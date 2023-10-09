@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075773695600",
+    "project_id": "jugrocery-c6b84",
+    "storage_bucket": "jugrocery-c6b84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075773695600:android:cdd1941e9e57d2df27b6b5",
+        "android_client_info": {
+          "package_name": "com.example.jugrocery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAbjEB69o7fEgm84e8wdRy8eW7F8lU-mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

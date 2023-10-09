@@ -1,0 +1,64 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cse"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/lavender_round"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/contact"
+        android:contentDescription="Log in " />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_email"
+        android:background="@color/darkGray"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/passwordid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:background="@color/darkGray"
+        android:inputType="textPassword"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/signinid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/signupid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_a_new_account"
+        />
+
+    <Button
+        android:id="@+id/forgetpasswordid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/logout"
+        />
+
+
+
+
+
+</LinearLayout>

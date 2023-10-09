@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JUGROCERY</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Share</string>
+    <string name="profile">Profile</string>
+    <string name="cart_activities">Cart/Activities</string>
+    <string name="file_orders">File/Orders</string>
+    <string name="products">Products</string>
+    <string name="register_a_new_account">Register a new account!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password">password</string>
+    <string name="user_email">user email</string>
+    <string name="logout">Logout</string>
+    <string name="add_product">Add Product</string>
+    <string name="all_product">All Product</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="log_out">Log Out</string>
+
+</resources>

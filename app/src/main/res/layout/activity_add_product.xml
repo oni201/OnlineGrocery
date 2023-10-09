@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRegister"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        >
+
+
+
+            <EditText
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lavender_round"
+                android:inputType="text"
+                android:hint="Product Name"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/productPrice"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Product Price"
+                android:background="@drawable/lavender_round"
+                android:padding="12dp" />
+        <EditText
+            android:id="@+id/productDescription"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Product Description"
+            android:background="@drawable/lavender_round"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/detailsid"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:onClick="saveProduct"
+            android:text="saveProduct" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
